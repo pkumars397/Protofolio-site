@@ -25,7 +25,7 @@ body {
 
 /* links */
 .link {
-    
+
     padding: 0.5rem 1rem;
     text-decoration: none;
 }
@@ -46,6 +46,14 @@ body {
     border-radius: 10px;
 }
 
+.blog-link {
+    text-decoration: none;
+}
+
+.blog-link:hover {
+    color: red;
+}
+
 /* lists */
 .list-non-bullet {
     list-style: none;
@@ -57,7 +65,7 @@ body {
 }
 
 ol {
-    
+
     font-weight: bold;
 }
 
@@ -107,7 +115,7 @@ ol li span {
     margin: auto;
     border: 2px solid black;
     border-radius: 4rem;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .hero .hero-heading {
