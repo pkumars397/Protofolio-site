@@ -52,7 +52,7 @@ body {
 }
 
 .blog-link:hover {
-    color: red;
+    color: rgb(199, 25, 147);
 }
 
 /* lists */
@@ -194,5 +194,12 @@ ol li span {
 }
 
 .fa-linkedin {
-    color: rgb(3, 44, 63);
+    color: rgb(10, 41, 126);
+}
+
+#blog-id {
+    background-color: rgb(218, 190, 214);
+    border-radius: 2rem;
+    padding: 0.3rem;
+    margin: 1rem;
 }
