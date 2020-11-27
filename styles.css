@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -88,7 +89,7 @@ ol li span {
     font-size: 1.2rem;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
     font-size: 1rem;
     margin-block-start: 1em;
@@ -137,6 +138,9 @@ ol li span {
 
 .section {
     padding: 2rem;
+    border: 0.5pxpx solid rgb(129, 114, 114);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .section h1 {
@@ -169,4 +173,26 @@ ol li span {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/* Styling icons */
+
+.fab {
+    font-size: 2.5rem;
+}
+
+.fa-facebook-square {
+    color: rgb(45, 45, 168);
+}
+
+.fa-github-square {
+    color: rgb(17, 15, 15);
+}
+
+.fa-instagram-square {
+    color: rgb(167, 16, 53);
+}
+
+.fa-linkedin {
+    color: rgb(3, 44, 63);
 }
